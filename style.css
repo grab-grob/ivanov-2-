@@ -6,8 +6,8 @@
 /* section-one start */
 
 .section-one{
-    height: 100%;
-    background-image: url(https://wallscloud.net/uploads/cache/114182468/mountains-forest-and-river-landscape-J769-1024x576-MM-90.jpg) ;
+    height: 100vh;
+    background: url(https://wallscloud.net/uploads/cache/114182468/mountains-forest-and-river-landscape-J769-1024x576-MM-90.jpg) no-repeat center top ;
     background-size: 100%;
     color: #ffffff;
     font-family: 'Readex Pro', sans-serif;
@@ -79,17 +79,7 @@ nav a {
       backdrop-filter: blur(20px);
       border-radius: 15px;
       font-size: 20px;
-  }
-
-  .btn {
-    margin-top: 150px;
-    height: 50px;
-    width: 200px;
-    background: #e4c590;
-    margin-bottom: 130px;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
+      margin-bottom: 300px;
   }
 
 /* section-one finish */
@@ -146,13 +136,14 @@ nav a {
 
 .section-three{
   height: 100%;
-  background-color: rgb(216, 149, 149);
+  background:url(https://ru.inettools.net/upload/RoU5HFeiyHIKwOfOtbCazK1VN5f4s2FXFGWH8VKx/201038-1000-ab9cde64e6.Xb5TU.png)no-repeat center top  ;
   color: #000000;
   font-family: 'Readex Pro', sans-serif;
   position: relative;
 }
 
 .section-three_name{
+  
   display: flex;
   justify-content: center;
   padding-top: 50px;
@@ -160,6 +151,7 @@ nav a {
 }
 
 .section-three-card{
+
 padding: 50px;
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -168,7 +160,7 @@ margin-top: 50px;
 }
 
 .section-three_travel-card{
-  background-color: #e5d6bb;
+  backdrop-filter: blur(4px);
   border-radius: 15px;
   margin-bottom: 25px;
   padding: 20px;
@@ -211,7 +203,7 @@ flex-direction: column;
 
 .namber{
   margin-bottom: 15px;
-  background-color: rgb(17, 93, 235);
+  backdrop-filter: blur(20px);
   border-radius: 10px;
   padding-left: 10px;
   width: 300px;
@@ -219,7 +211,7 @@ flex-direction: column;
 
 .email{
   margin-bottom: 15px;
-  background-color: rgb(17, 93, 235);
+  backdrop-filter: blur(20px);
   border-radius: 10px;
   padding-left: 10px;
   width: 380px;
@@ -227,7 +219,7 @@ flex-direction: column;
 
 .adres{
   margin-bottom: 15px;
-  background-color: rgb(17, 93, 235);
+  backdrop-filter: blur(20px);
   border-radius: 10px;
   padding-left: 10px;
   width: 430px;
